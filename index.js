@@ -58,7 +58,7 @@ function calcularMaiorValor() {
 }
 
 function calcularDiasAcimaDaMedia(){
-    let media = data.reduce((anterior, atual) => anterior + atual.valor, 0) / data.length
+    let media = data.reduce((anterior, atual) => anterior + atual.valor, 0) / data.length //fazer verificacao de dias com valor em 0
 
     console.log(media);
 }
